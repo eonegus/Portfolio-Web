@@ -105,6 +105,11 @@
     box-shadow: 3px 4px 2px 0px #4900a7;
     color: rgba(0, 0, 0, 0.96);
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.links-links a:hover{
+    opacity: 0.8;
 }
 
 .main-imagem {
