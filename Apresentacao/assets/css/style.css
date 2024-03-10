@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --font-title: "Kadwa";
+    --font-body: "Montserrat";
+    --white: #d6d6d6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+.main {
+    display: inline-flex;
+    overflow: hidden;
+    padding: 211px 47px 210px 47px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 49px;
+    color: var(--white);
+    background: linear-gradient(
+        0deg,
+        rgba(0, 19, 124, 0.842) 0.07%,
+        rgba(70, 0, 124, 0.863) 93.44%
+    );
+}
+
+.main-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px 17px;
+    gap: 34px;
+    border-radius: 10px;
+    background: rgba(35, 33, 33, 0.39);
+}
+
+.conteudo-texto {
+    display: flex;
+    width: 720px;
+    height: 248px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo {
+    width: 692px;
+    height: 83px;
+    text-shadow: 3px 4px 2px rgba(73, 0, 167, 0.5);
+    font-family: var(--font-title);
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.titulo strong {
+    color: rgba(97, 69, 210, 0.85);
+}
+
+.texto {
+    width: 692px;
+    height: 144px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.links-texto {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.links-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    gap: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.links-links a {
+    display: flex;
+    width: 164px;
+    padding: 9px 8px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 10px;
+    background: rgba(97, 69, 210, 0.85);
+    box-shadow: 3px 4px 2px 0px #4900a7;
+    color: rgba(0, 0, 0, 0.96);
+    text-decoration: none;
+}
+
+.main-imagem {
+    width: 411px;
+}
+
+.main-imagem img {
+    display: block;
+    flex-wrap: wrap;
+}
